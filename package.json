@@ -1,0 +1,26 @@
+{
+  "name": "pure-utility",
+  "version": "1.0.0",
+  "description": "A small strongly typed pure function utility library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMcDade13/PureUtility.git"
+  },
+  "keywords": [
+    "utility",
+    "pure-function",
+    "binary-search",
+    "min-max",
+    "distinct-array"
+  ],
+  "author": "Matthew McDade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewMcDade13/PureUtility/issues"
+  },
+  "homepage": "https://github.com/MatthewMcDade13/PureUtility#readme"
+}
