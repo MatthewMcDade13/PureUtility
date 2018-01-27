@@ -29,7 +29,7 @@ interface TakeDescriptor<T>
  * @param arr Array to take distinct values from
  * @param ignoreFalsey Flag to ignore falsey values from array, defaults to false
  */
-export const takeArrDistinct = function<T>(arr: T[], ignoreFalsey: boolean = false): TakeDescriptor<T>
+export const takeDistinct = function<T>(arr: T[], ignoreFalsey: boolean = false): TakeDescriptor<T>
 {
     // local function to keep this as DRY as possible
     const checkMap = <MV>(map: Map<MV, MV>, val: MV) => {
